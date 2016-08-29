@@ -8,6 +8,7 @@ var $iframe=$('<iframe>');
 var $gifdiv=$('<div class="johncena">');
   $gifdiv.append($iframe);
   $gifdiv.css('text-align', 'center');
+
 var $textdiv=$('<div id="texts">');
 var num='';
 var firstnum='';
@@ -41,7 +42,7 @@ function operator(event) {
         evaluate();
         firstnum=result;
         ope=$(event.target).text();
-        console.log(result);
+        // console.log(result);
       } else if (firstnum !== '') {
         ope=$(event.target).text();
       } else {
