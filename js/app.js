@@ -84,6 +84,7 @@ function evaluate() {
     nyan.play();
     audio.pause();
     audio.currentTime = 0;
+    $gifdiv.remove();
   } else {
     funtext = 'JOHN CENA!!!';
     $('body').css('background-image', 'url(john-cena.jpg)');
