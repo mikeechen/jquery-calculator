@@ -82,11 +82,15 @@ function evaluate() {
     result = funtext;
     nyan.loop = true;
     nyan.play();
+    audio.pause();
+    audio.currentTime = 0;
   } else {
     funtext = 'JOHN CENA!!!';
     $('body').css('background-image', 'url(john-cena.jpg)');
     audio.loop = true;
     audio.play();
+    nyan.pause();
+    nyan.currentTime = 0;
     $('body').append($gifdiv);
   }
   // $('#screen').text(result);
