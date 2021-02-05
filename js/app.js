@@ -2,7 +2,7 @@
   var audio = new Audio('JYH7-AND HIS NAME IS JOHN CENA.mp3');
   var nyan = new Audio('Nyan-Cat.mp3');
   var $iframe=$('<iframe>');
-    $iframe.attr('src', 'https://giphy.com/embed/37PiwK6sNDyM');
+    $iframe.attr('src', 'https://giphy.com/embed/xTiTnoHt2NwerFMsCI');
     $iframe.attr('width', '600');
     $iframe.attr('height', '400');
     // $iframe.attr('align', 'middle');
